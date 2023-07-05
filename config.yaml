@@ -2,12 +2,12 @@ baseurl: deft10.netlify.app
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Dolce for niente
 
 languages:
     en:
         languageName: English
-        title: Example Site
+        title: Dolce far niente
         description: Example description
         weight: 1
     zh-cn:
@@ -44,11 +44,11 @@ params:
     mainSections:
         - post
     featuredImageField: image
-    rssFullContent: true
+    rssFullContent: false
     favicon:  # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
+        since: 2023
         customText:
 
     dateFormat:
@@ -56,7 +56,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 🎵
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
@@ -66,13 +66,13 @@ params:
     article:
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
         license:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -164,7 +164,7 @@ params:
             - type: toc
 
     opengraph:
-        twitter:
+        twitter: iam11duck
             # Your Twitter username
             site:
 
